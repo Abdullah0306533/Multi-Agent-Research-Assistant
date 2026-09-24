@@ -1,0 +1,31 @@
+[project]
+name = "multi-agent-agentic-application"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Abdullah", email = "abdullah0306533@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "bs4>=0.0.2",
+    "dotenv>=0.9.9",
+    "langchain>=1.4.1",
+    "langchain-gemini>=0.1.1",
+    "langchain-google-genai>=4.4.0",
+    "langchain-groq>=1.1.3",
+    "readability>=0.3.2",
+    "readability-lxml>=0.9",
+    "requests>=2.34.2",
+    "rich>=15.0.0",
+    "streamlit>=1.64.0",
+    "tavily>=1.1.0",
+    "trafilatura>=2.2.0",
+]
+
+[project.scripts]
+multi-agent-agentic-application = "multi_agent_agentic_application:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"

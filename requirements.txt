@@ -1,0 +1,10 @@
+langchain
+langchain-groq
+langchain-google-genai
+requests
+dotenv
+tavily
+rich
+bs4
+readability
+trafilatura

@@ -1,0 +1,67 @@
+# ==============================================================================
+# Environment & Secrets (Never commit credentials)
+# ==============================================================================
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.key
+*.pem
+*.cert
+
+# ==============================================================================
+# Python Bytecode & Virtual Environments
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+wheels/
+*.egg
+
+# ==============================================================================
+# Testing, Linting & Type Checking Cache
+# ==============================================================================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==============================================================================
+# IDEs, Editors & OS Files
+# ==============================================================================
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================================================================
+# Application Logs, Artifacts & Temporary Output
+# ==============================================================================
+*.log
+logs/
+output/
+scraped_data/
+temp/
+.cache/
+
+# ==============================================================================
+# Explicitly Tracked Critical Files
+# ==============================================================================
+!pyproject.toml
+!uv.lock
+!.python-version
+!README.md
+!.env.example
+!.streamlit/config.toml
+!assets/
